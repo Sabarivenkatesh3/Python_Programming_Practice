@@ -1,4 +1,8 @@
-a=10
-b=20
-c=a+b
-print(c)
+def sum(*args):
+    total = 0
+    for n in args:
+        total += n
+    return total
+
+
+print(sum(50,10,150))
