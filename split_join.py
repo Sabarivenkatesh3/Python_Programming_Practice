@@ -1,0 +1,5 @@
+word = input()
+space = word.split(" ")
+print(space)
+join = "-".join(space)
+print(join)
